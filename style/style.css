@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+}
+
+header{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 25px auto 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul a{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3A3838;
+    transition: 0.5s;
+}
+
+.active{
+    color: red;
+}
+
+nav ul a:hover{
+    color: blue;
+}
+
+.header_banner{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+.news{
+    display: flex;
+}
+
+.news_item{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.news_pic{
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.news_link{
+    padding: 15px;
+    color: white;
+}
+
+.red{
+    background: brown;
+}
+
+.purple{
+    background: purple;
+}
+
+.blue{
+    background: blue;
+}
+
+.green{
+    background: green;
+}
+
+.main_title{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.main_desc{
+    color: #EBEBEB;
+}
+
+.main-news_title{
+    text-align:center;
+    font-size:30px;
+    margin:42px 0 40px;
+    color:#3A3838;
+}
+
+.main-news_item{
+    background: #EDEDED;
+}
+
+.main-news_item_pic{
+    width: 530px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.main-news_item_title{
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #3a3838;
+}
+
+.main-news_item_desc{
+    font-size: 22px;
+    color: #686868;
+}
+
+.main-news_item_content{
+    margin:20px 0 30px;
+}
+
+.footer_content{
+    width: 1140px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer{
+    background: #3a3838;
+    padding: 28px 0;
+    margin: 50px;
+}
+
+footer li a{
+    color: white;
+}
